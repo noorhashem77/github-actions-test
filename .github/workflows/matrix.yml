@@ -1,6 +1,6 @@
 name: matrix
-on: push
-
+# we just changed it to pull so that it does not run everytime we push when testing out other workflows
+on: pull
 jobs:
   node-version:
     strategy:
